@@ -1,6 +1,12 @@
 // Given a singly linked list of integers l and an integer k,
 //remove all elements from list l that have a value equal to k.
 
+
+//Solution: create a pointer as previous node of head so that can return pointer.next;
+// another pointer as previous node of current node which we exam if it has target value;
+// time complexity: O(n)
+// space: O(n)
+
 const ListNode (val) => {
   this.value = val;
   this.next = null;
